@@ -28,7 +28,7 @@ public interface CmsPageControllerApi {
     public CmsPage findById(String id);
     //修改页面
     @ApiOperation("修改页面")
-    public CmsPageResult edit(String id,CmsPage cmsPage);
+    public CmsPageResult edit(String id, CmsPage cmsPage);
 
     //删除页面
     @ApiOperation("删除页面")
